@@ -8,8 +8,9 @@ const Footer = () => {
   return (
     <footer className="bg-green-950 text-white py-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Navigation Links */}
-        <div className="flex flex-col items-start space-y-4">
+        
+        {/* Navigation Links Card */}
+        <div className="flex flex-col items-center bg-green-950 p-4 rounded-lg shadow-lg">
           <h2 className="text-xl font-bold">Navigation</h2>
           <nav>
             <ul className="space-y-2">
@@ -29,14 +30,11 @@ const Footer = () => {
           </nav>
         </div>
 
-        {/* Contact Details */}
-        <div className="flex flex-col items-start space-y-4">
+        {/* Contact Us Card */}
+        <div className="flex flex-col items-center bg-green-950 p-4 rounded-lg shadow-lg">
           <h2 className="text-xl font-bold">Contact Us</h2>
           <div className="flex items-center space-x-2">
-            <a 
-              href="mailto:mzima.holistic@gmail.com" 
-              className="hover:text-yellow-400"
-            >
+            <a href="mailto:mzima.holistic@gmail.com" className="hover:text-yellow-400">
               <FaEnvelope size={24} />
             </a>
             <span>Email</span>
@@ -58,8 +56,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter Subscription */}
-        <div className="flex flex-col items-start space-y-4">
+        {/* Newsletter Subscription Card */}
+        <div className="flex flex-col items-center bg-green-950 p-4 rounded-lg shadow-lg">
           <h2 className="text-xl font-bold">Subscribe to Our Newsletter</h2>
           <form className="flex flex-col w-full">
             <input 
@@ -77,8 +75,8 @@ const Footer = () => {
           </form>
         </div>
 
-        {/* Social Media Icons */}
-        <div className="flex flex-col items-start space-y-4">
+        {/* Social Media Icons Card */}
+        <div className="flex flex-col items-center bg-green-950 p-4 rounded-lg shadow-lg">
           <h2 className="text-xl font-bold">Follow Us</h2>
           <div className="flex space-x-6">
             <a 
@@ -127,6 +125,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
+
       </div>
       
       {/* Copyright Info */}
