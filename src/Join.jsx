@@ -13,9 +13,7 @@ const Join = () => {
         {/* CEO Invitation */}
         <div className="bg-white p-8 rounded-lg shadow-lg mb-12 max-w-3xl mx-auto">
           <h3 className="text-3xl font-bold text-[#228B22] mb-4 text-center">A Personal Invitation from Our CEO</h3>
-          <p className="text-gray-700 mb-4">
-            Dear future colleague,
-          </p>
+          <p className="text-gray-700 mb-4">Dear future colleague,</p>
           <p className="text-gray-700 mb-4">
             At MZIMA, we are revolutionizing healthcare through technology and innovation. We are passionate about providing
             holistic care and delivering life-changing services to our clients. To continue our mission, we need dedicated,
@@ -26,16 +24,14 @@ const Join = () => {
             If you’re eager to contribute to impactful projects and grow in an inclusive, dynamic work environment, we invite
             you to be part of Team MZIMA!
           </p>
-          <p className="text-gray-700 mb-4">
-            Let's build the future of healthcare together.
-          </p>
+          <p className="text-gray-700 mb-4">Let's build the future of healthcare together.</p>
           <p className="text-gray-700 font-bold">Warm regards,</p>
           <p className="text-gray-700 font-bold">John Ouma, CEO</p>
         </div>
 
         {/* Executive Team Icons */}
         <h3 className="text-2xl font-bold text-[#228B22] mb-4 text-center">Meet Our Leadership Team</h3>
-        <div className="flex justify-center space-x-6 mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-8">
           {/* CEO Photo */}
           <div className="flex flex-col items-center">
             <img src={john} alt="John Ouma" className="w-16 h-16 rounded-full border-4 border-white" />

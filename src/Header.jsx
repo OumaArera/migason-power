@@ -33,7 +33,7 @@ const Header = () => {
 
         {/* Navigation Links */}
         <nav className={`md:flex ${isMenuOpen ? 'block' : 'hidden'} absolute md:static top-full left-0 w-full bg-white md:bg-transparent shadow-lg md:shadow-none`}>
-          <ul className="flex flex-col md:flex-row md:space-x-8 text-xl md:text-2xl">
+          <ul className="flex flex-col md:flex-row md:space-x-8 text-xl md:text-2xl md:ml-auto"> {/* Add md:ml-auto to push links to the right */}
             <li>
               <Link 
                 to="/" 
