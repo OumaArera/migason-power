@@ -32,29 +32,30 @@ const Footer = () => {
 
         {/* Contact Us Card */}
         <div className="flex flex-col items-center bg-green-950 p-4 rounded-lg shadow-lg">
-          <h2 className="text-xl font-bold">Contact Us</h2>
-          <div className="flex items-center space-x-2">
+        <h2 className="text-xl font-bold">Contact Us</h2>
+        <div className="flex items-center space-x-2 mt-4">
             <a href="mailto:mzima.holistic@gmail.com" className="hover:text-yellow-400">
-              <FaEnvelope size={24} />
+            <FaEnvelope size={20} /> {/* Reduced icon size */}
             </a>
-            <span>Email</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <a 
-              href="https://wa.me/254753472960" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="hover:text-yellow-400"
-            >
-              <FaWhatsapp size={24} />
-            </a>
-            <span>WhatsApp</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <FaMapMarkerAlt size={24} />
-            <span>Nairobi, KE</span>
-          </div>
+            <span className="text-base">Email</span> {/* Adjusted text size */}
         </div>
+        <div className="flex items-center space-x-2 mt-4">
+            <a 
+            href="https://wa.me/254753472960" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:text-yellow-400"
+            >
+            <FaWhatsapp size={20} /> {/* Reduced icon size */}
+            </a>
+            <span className="text-base">WhatsApp</span> {/* Adjusted text size */}
+        </div>
+        <div className="flex items-center space-x-2 mt-4">
+            <FaMapMarkerAlt size={20} /> {/* Reduced icon size */}
+            <span className="text-base">Nairobi, KE</span> {/* Adjusted text size */}
+        </div>
+        </div>
+
 
         {/* Newsletter Subscription Card */}
         <div className="flex flex-col items-center bg-green-950 p-4 rounded-lg shadow-lg">
