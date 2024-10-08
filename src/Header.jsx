@@ -33,14 +33,14 @@ const Header = () => {
 
         {/* Navigation Links */}
         <nav className={`md:flex ${isMenuOpen ? 'block' : 'hidden'} absolute md:static top-full left-0 w-full bg-white md:bg-transparent shadow-lg md:shadow-none`}>
-          <ul className="flex flex-col md:flex-row md:space-x-8 text-xl md:text-2xl md:ml-auto"> {/* Add md:ml-auto to push links to the right */}
+          <ul className="flex flex-col space-y-4 md:flex-row md:space-x-8 text-xl md:text-2xl md:ml-auto"> {/* Added space-y-4 for spacing and font-bold for bold text */}
             <li>
               <Link 
                 to="/" 
                 onClick={handleLinkClick}
                 className={`${
                   location.pathname === '/' ? 'text-[#228B22]' : 'text-gray-900 hover:text-green-700'
-                } transition-colors duration-300 hover:underline p-4`}
+                } transition-colors duration-300 hover:underline font-bold p-4`}
               >
                 Home
               </Link>
@@ -51,7 +51,7 @@ const Header = () => {
                 onClick={handleLinkClick}
                 className={`${
                   location.pathname === '/about' ? 'text-[#228B22]' : 'text-gray-900 hover:text-green-700'
-                } transition-colors duration-300 hover:underline p-4`}
+                } transition-colors duration-300 hover:underline font-bold p-4`}
               >
                 About
               </Link>
@@ -62,7 +62,7 @@ const Header = () => {
                 onClick={handleLinkClick}
                 className={`${
                   location.pathname === '/services' ? 'text-[#228B22]' : 'text-gray-900 hover:text-green-700'
-                } transition-colors duration-300 hover:underline p-4`}
+                } transition-colors duration-300 hover:underline font-bold p-4`}
               >
                 Services
               </Link>
@@ -73,7 +73,7 @@ const Header = () => {
                 onClick={handleLinkClick}
                 className={`${
                   location.pathname === '/join' ? 'text-[#228B22]' : 'text-gray-900 hover:text-green-700'
-                } transition-colors duration-300 hover:underline p-4`}
+                } transition-colors duration-300 hover:underline font-bold p-4`}
               >
                 Join
               </Link>
