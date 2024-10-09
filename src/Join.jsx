@@ -8,7 +8,8 @@ const teamMembers = [
     name: 'John Ouma',
     title: 'Founder & CEO',
     image: john,
-    fullBio: `John Ouma is an experienced software engineer, combining technical expertise with a solid background in the banking sector. With over 3 years in roles focused on customer relationship management and business operations within banking, he leverages this unique blend of skills to guide Mzima towards pioneering health solutions. His leadership and innovation drive the team to redefine healthcare delivery using cutting-edge technology, ensuring that Mzima remains at the forefront of health tech transformation.`,
+    fullBio: `John Ouma is an experienced software engineer with over 3 years in roles focused on customer relationship management and business operations within banking. 
+    He leverages this blend of skills to guide Mzima towards pioneering health solutions. His leadership drives the team to remain at the forefront of health tech transformation.`,
   },
   {
     name: 'Dr. Mercy Ojunju',
@@ -63,7 +64,8 @@ const Join = () => {
 
         {/* Leadership Team Section */}
         <h3 className="text-2xl font-bold text-[#228B22] mb-4 text-center">Meet Our Leadership Team</h3>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-8">
+        {/* On smaller devices (mobile) show one member per row, on medium devices (md) show 2, and on larger (lg) show 3 */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
           {teamMembers.map((member, index) => (
             <div key={index} className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg">
               {typeof member.image === 'string' ? (
