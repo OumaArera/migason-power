@@ -47,19 +47,18 @@ const Join = () => {
         {/* Title */}
         <h2 className="text-4xl font-bold text-[#228B22] mb-8 text-center">Team MZIMA</h2>
 
-        {/* CEO Invitation */}
+        {/* Team Message */}
         <div className="bg-white p-8 rounded-lg shadow-lg mb-12 max-w-3xl mx-auto">
-          <h3 className="text-3xl font-bold text-[#228B22] mb-4 text-center">A Personal Invitation from Our CEO</h3>
-          <p className="text-gray-700 mb-4">Dear future colleague,</p>
+          <h3 className="text-3xl font-bold text-[#228B22] mb-4 text-center">The Strength Behind Mzima</h3>
           <p className="text-gray-700 mb-4">
-            At MZIMA, we are revolutionizing healthcare through technology and innovation. We are passionate about providing holistic care and delivering life-changing services to our clients.
-            To continue our mission, we need dedicated, forward-thinking individuals to join us on this journey.
+            Mzima is led by a team of dedicated professionals who bring together a wealth of experience across healthcare, technology, finance, and operations. This dynamic blend of expertise allows Mzima to not only envision the future of health services but also deliver on that promise with precision, innovation, and care.
           </p>
           <p className="text-gray-700 mb-4">
-            If you share our values and vision of a healthier future, we invite you to be part of Team MZIMA!
+            Our leadership team has a proven track record of excellence in their respective fields, and together, we are transforming how healthcare is accessed and experienced. Whether through technological advancements, operational efficiency, or a deep understanding of the financial landscape, every member of this team plays a critical role in steering Mzima towards a healthier, more connected world.
           </p>
-          <p className="text-gray-700 font-bold">Warm regards,</p>
-          <p className="text-gray-700 font-bold">John Ouma, CEO</p>
+          <p className="text-gray-700 mb-4">
+            Our commitment to innovation, quality service delivery, and patient-centric care positions Mzima as a leader in the evolving health tech space. With each team member bringing unique strengths, we are poised to lead the way in creating accessible, reliable, and holistic healthcare solutions for all.
+          </p>
         </div>
 
         {/* Leadership Team Section */}
