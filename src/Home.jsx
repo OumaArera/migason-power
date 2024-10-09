@@ -15,7 +15,7 @@ const Home = () => {
         </h1>
 
         {/* Tagline */}
-        <p className="text-2xl md:text-4xl text-white mt-4">Holistic. Accessible. Health.</p>
+        <p className="text-2xl md:text-4xl text-white mt-4">Holistic. Accessible. Healthcare.</p>
 
         {/* Button to navigate to services */}
         <Link to="/services">
