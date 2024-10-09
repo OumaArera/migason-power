@@ -33,7 +33,7 @@ const Header = () => {
 
         {/* Navigation Links */}
         <nav className={`md:flex ${isMenuOpen ? 'block' : 'hidden'} absolute md:static top-full left-0 w-full bg-white md:bg-transparent shadow-lg md:shadow-none`}>
-          <ul className="flex flex-col space-y-4 md:flex-row md:space-x-8 text-xl md:text-2xl md:ml-auto"> {/* Added space-y-4 for spacing and font-bold for bold text */}
+          <ul className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-8 text-xl md:text-2xl md:ml-auto"> {/* Reset space-y for larger screens */}
             <li>
               <Link 
                 to="/" 
