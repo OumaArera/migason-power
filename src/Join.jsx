@@ -15,7 +15,7 @@ const teamMembers = [
   },
   {
     name: 'Elisha Onyando',
-    title: 'Electrical Engineer and Quality Assurance',
+    title: 'Chief Technology Officer',
     image: <FaUserCircle className="text-[#228B22] w-16 h-16 rounded-full border-4 border-white" />,
     shortBio:
       'Elisha Ooko Onyando is an electrical engineer and software quality assurance specialist, ensuring that Mzima’s technology meets the highest standards.',
@@ -24,7 +24,7 @@ const teamMembers = [
   },
   {
     name: 'Eliakim Nayah',
-    title: 'Business Analyst & Entrepreneur',
+    title: 'Chief Operations Officer',
     image: eliakim,
     shortBio:
       'Eliakim Nayah is a business analyst and entrepreneur with a strong passion for driving business growth and innovation in healthcare.',
@@ -33,7 +33,7 @@ const teamMembers = [
   },
   {
     name: 'Dr. Mercy Ojunju',
-    title: 'Medical Officer',
+    title: 'Chief Medical Officer',
     image: <FaUserCircle className="text-[#228B22] w-16 h-16 rounded-full border-4 border-white" />,
     shortBio:
       'Dr. Mercy Ojunju brings over 2 years of experience in the medical and banking sectors, guiding Mzima’s mission to revolutionize healthcare.',
@@ -42,7 +42,7 @@ const teamMembers = [
   },
   {
     name: 'Brian Onyango',
-    title: 'Financial Officer & Business Advisor',
+    title: 'Chief Financial Officer',
     image: <FaUserCircle className="text-[#228B22] w-16 h-16 rounded-full border-4 border-white" />,
     shortBio:
       'Brian Onyango is a seasoned financial auditor and business analyst, providing strategic financial insights for Mzima’s sustainable growth.',
