@@ -69,13 +69,13 @@ const Header = () => {
             </li>
             <li>
               <Link 
-                to="/join" 
+                to="/team" 
                 onClick={handleLinkClick}
                 className={`${
                   location.pathname === '/join' ? 'text-[#228B22]' : 'text-gray-900 hover:text-green-700'
                 } transition-colors duration-300 hover:underline font-bold p-4`}
               >
-                Join
+                Team
               </Link>
             </li>
           </ul>
