@@ -67,6 +67,46 @@ const Join = () => {
             <span className="text-gray-500 text-sm">CFO</span>
           </div>
         </div>
+
+        {/* Executive Team Profiles */}
+        <div className="bg-white p-6 rounded-lg shadow-lg">
+          <h3 className="text-2xl font-bold text-[#228B22] mb-4 text-center">Executive Team Profiles</h3>
+
+          <div className="mb-6">
+            <h4 className="text-xl font-semibold text-gray-700">John Ouma – Founder & CEO, Mzima Group Limited</h4>
+            <p className="text-gray-700">
+              John Ouma is an experienced software engineer with a solid foundation in the banking sector. Over the past three years, he has specialized in customer relationship management and business operations within banking. John combines these unique skills to lead Mzima’s journey in delivering groundbreaking health solutions. His visionary leadership drives Mzima to be a front-runner in the integration of cutting-edge technology into healthcare.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <h4 className="text-xl font-semibold text-gray-700">Dr. Mercy Anyango Ojunju – Medical Officer</h4>
+            <p className="text-gray-700">
+              With a blend of medical and banking experience, Dr. Mercy is exceptionally equipped to bridge healthcare and innovation. Serving as the former Chairperson of AMSUN at The University of Nairobi, her leadership is crucial in steering Mzima’s mission to modernize healthcare delivery. Her two years of experience in both the medical and financial sectors give her a unique perspective on the needs of today’s healthcare environment.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <h4 className="text-xl font-semibold text-gray-700">Eng. Elisha Ooko Onyando – Electrical Engineer & Quality Assurance</h4>
+            <p className="text-gray-700">
+              Elisha is a specialist in electrical engineering and software quality assurance, with two years of experience in the banking sector. His expertise ensures that Mzima's technological infrastructure meets the highest standards of quality and reliability, delivering efficient and trusted services to users.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <h4 className="text-xl font-semibold text-gray-700">Brian Onyango Odiwuor – Financial Officer & Business Advisor</h4>
+            <p className="text-gray-700">
+              A seasoned financial auditor, accountant, and business analyst, Brian brings a wealth of experience to Mzima. His role is pivotal in providing strategic financial insights, supporting sustainable business growth, and ensuring sound financial management as Mzima continues to expand.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <h4 className="text-xl font-semibold text-gray-700">Eliakim Nayah – Chief Operating Officer</h4>
+            <p className="text-gray-700">
+              Eliakim Nayah is an accomplished business analyst and entrepreneur. His deep understanding of business operations and strategy is key to optimizing Mzima’s internal processes. As COO, Eliakim’s focus is on ensuring seamless operations, driving growth, and contributing to the company’s mission of transforming healthcare through technology.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
