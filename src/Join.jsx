@@ -36,7 +36,7 @@ const Join = () => {
           <div className="flex flex-col items-center">
             <img src={john} alt="John Ouma" className="w-16 h-16 rounded-full border-4 border-white" />
             <span className="text-gray-700 font-semibold mt-2">John Ouma</span>
-            <span className="text-gray-500 text-sm">CEO</span>
+            <span className="text-gray-500 text-sm">Founder & CEO</span>
           </div>
 
           {/* CTO Icon */}
