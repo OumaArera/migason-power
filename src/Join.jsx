@@ -6,7 +6,7 @@ import eliakim from './images/eliakim_photo.jpeg';
 const teamMembers = [
   {
     name: 'John Ouma',
-    title: 'Founder & CEO, Mzima Group Limited',
+    title: 'Founder & CEO, Mzima Holistic Wellness Limited',
     image: john,
     shortBio:
       'John Ouma is an experienced software engineer, combining technical expertise with a solid background in the banking sector. His leadership and innovation are redefining healthcare through technology.',
