@@ -2,6 +2,7 @@ import React from 'react';
 import { FaUserCircle } from 'react-icons/fa';
 import john from './images/john_photo.jpg';
 import eliakim from './images/eliakim_photo.jpeg';
+import mercy from './images/mercy_photo.png';
 
 const teamMembers = [
   {
@@ -14,7 +15,7 @@ const teamMembers = [
   {
     name: 'Dr. Mercy Ojunju',
     title: 'Chief Medical Officer',
-    image: <FaUserCircle className="text-[#228B22] w-16 h-16 rounded-full border-4 border-white" />,
+    image: mercy,
     fullBio: `Dr. Mercy brings over 2 years of diverse experience from both the banking sector and medical field, making her uniquely qualified to bridge healthcare and innovation. With a background in leadership as the emeritus Chairperson of AMSUN at The University of Nairobi, she is instrumental in guiding Mzima’s mission to revolutionize health services.`,
   },
   {
