@@ -3,6 +3,7 @@ import { FaUserCircle } from 'react-icons/fa';
 import john from './images/john_photo.jpg';
 import eliakim from './images/eliakim_photo.jpeg';
 import mercy from './images/mercy_photo.png';
+import onyando from './images/onyando_photo.png';
 
 const teamMembers = [
   {
@@ -21,7 +22,7 @@ const teamMembers = [
   {
     name: 'Elisha Onyando',
     title: 'Chief Technology Officer',
-    image: <FaUserCircle className="text-[#228B22] w-16 h-16 rounded-full border-4 border-white" />,
+    image: onyando,
     fullBio: `Eng. Elisha has over 2 years of experience in the banking sector as a quality assurance specialist. His expertise ensures that Mzima’s services 
     deliver reliable and effective healthcare technology solutions to users.`,
   },
