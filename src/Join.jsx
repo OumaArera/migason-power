@@ -4,6 +4,7 @@ import john from './images/john_photo.jpg';
 import eliakim from './images/eliakim_photo.jpeg';
 import mercy from './images/mercy_photo.png';
 import onyando from './images/onyando_photo.png';
+import akuku from './images/akuku_photo.jpeg';
 
 const teamMembers = [
   {
@@ -36,7 +37,7 @@ const teamMembers = [
   {
     name: 'Brian Onyango',
     title: 'Chief Financial Officer',
-    image: <FaUserCircle className="text-[#228B22] w-16 h-16 rounded-full border-4 border-white" />,
+    image: akuku,
     fullBio: `Brian’s experience as a financial auditor, accountant, and business analyst supports Mzima’s financial strategies and ensures that the company adheres to sustainable practices. 
     His advisory role is crucial for Mzima’s ongoing growth and financial management.`,
   },
