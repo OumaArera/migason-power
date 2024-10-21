@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 
 const getCurrentYear = () => new Date().getFullYear();
 
@@ -24,7 +25,7 @@ const Footer = () => {
                 <Link to="/services" className="hover:text-yellow-400">Services</Link>
               </li>
               <li>
-                <Link to="/team" className="hover:text-yellow-400">Join Us</Link>
+                <Link to="/team" className="hover:text-yellow-400">Team</Link>
               </li>
             </ul>
           </nav>
@@ -94,19 +95,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-yellow-400"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="w-6 h-6 text-2xl"
-              >
-                <path d="M18 6L6 18"></path>
-                <path d="M6 6l12 12"></path>
-              </svg>
+              <FaXTwitter size={24} />
             </a>
             <a 
               href="https://www.instagram.com" 
