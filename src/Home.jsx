@@ -10,7 +10,7 @@ const Home = () => {
     >
       <div className="flex flex-col items-center justify-center h-full bg-black bg-opacity-50">
         {/* MZIMA Logo */}
-        <h1 className="text-6xl md:text-4xl font-bold" style={{ color: '#FFD700' }}>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#FFD700] text-center px-4">
           MIGASON POWER SERVICE CO.LTD
         </h1>
 
