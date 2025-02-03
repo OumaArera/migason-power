@@ -1,68 +1,68 @@
 import React from 'react';
-import consultation from "./images/consultation.jpg";
-import pharmacy from "./images/e_pharmacy.jpg";
-import laboratory from './images/e-lab.jpg';
-import monitoring from './images/health_monitoring.jpg';
-import analysis from './images/health_history_analysis.jpg';
-import education from "./images/health_education.jpg";
-import mentalHealth from './images/mental_health.jpg';
-import reproductive from './images/sexual_health.jpg';
-import ai from './images/ai.jpg';
+import powerInstallation from "./images/power_installation.jpg";
+import solarEnergy from "./images/solar_energy.jpg";
+import electricalRepairs from "./images/electrical_repairs.jpg";
+import highVoltage from './images/high_voltage.jpg';
+import generatorService from './images/generator_service.jpg';
+import industrialWiring from './images/industrial_wiring.jpg';
+import smartHome from "./images/smart_home.jpg";
+import energyAudit from './images/energy_audit.jpg';
+import transformer from './images/transformer.jpg';
 
-// Sample Service Data
+// Sample Electrical Power Services Data
 const services = [
   {
-    title: 'Virtual Consultation',
-    description: 'Connect with healthcare professionals from the comfort of your home.',
-    imageUrl: consultation
+    title: 'Power Installation',
+    description: 'Professional installation of electrical systems for homes and businesses.',
+    imageUrl: powerInstallation
   },
   {
-    title: 'E-Pharmacy',
-    description: 'Order medications online with easy home delivery.',
-    imageUrl: pharmacy,
+    title: 'Solar Energy Solutions',
+    description: 'Solar panel installation and maintenance for sustainable energy.',
+    imageUrl: solarEnergy,
   },
   {
-    title: 'E-Laboratory',
-    description: 'Access laboratory tests and receive results digitally.',
-    imageUrl: laboratory,
+    title: 'Electrical Repairs & Maintenance',
+    description: 'Troubleshooting and fixing electrical faults.',
+    imageUrl: electricalRepairs,
   },
   {
-    title: 'AI Diagnostics',
-    description: 'Utilize AI technology for accurate health assessments.',
-    imageUrl: ai,
+    title: 'High Voltage Power Distribution',
+    description: 'Setting up and maintaining power grids and substations.',
+    imageUrl: highVoltage,
   },
   {
-    title: 'Health Monitoring',
-    description: 'Keep track of your health metrics with smart devices.',
-    imageUrl: monitoring,
+    title: 'Generator Installation & Servicing',
+    description: 'Reliable backup power solutions for businesses and homes.',
+    imageUrl: generatorService,
   },
   {
-    title: 'Health History Analysis',
-    description: 'Analyze your health history for better care management.',
-    imageUrl: analysis,
+    title: 'Industrial Electrical Wiring',
+    description: 'Electrical wiring for factories and industries.',
+    imageUrl: industrialWiring,
   },
   {
-    title: 'Health Education',
-    description: 'Access resources and information to enhance your health knowledge.',
-    imageUrl: education,
+    title: 'Smart Home Automation',
+    description: 'Integrating smart electrical systems for home automation.',
+    imageUrl: smartHome,
   },
   {
-    title: 'Mental Health Support',
-    description: 'Get support for mental health challenges and well-being.',
-    imageUrl: mentalHealth,
+    title: 'Energy Auditing & Optimization',
+    description: 'Analyzing energy usage and optimizing efficiency.',
+    imageUrl: energyAudit,
   },
   {
-    title: 'Reproductive Health',
-    description: 'Receive expert advice and support for reproductive health issues.',
-    imageUrl: reproductive,
+    title: 'Transformer Installation & Maintenance',
+    description: 'Ensuring reliable power transmission and distribution.',
+    imageUrl: transformer,
   },
 ];
 
 const Services = () => {
   return (
-    <div className="bg-gray-100 py-10">
+    <div className="bg-gray-200 py-10">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-[#228B22] text-center mb-6">Our Services</h2>
+        <h2 className="text-3xl font-bold text-purple-900 text-center mb-6">Our Electrical Power Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-4 flex flex-col">
@@ -71,7 +71,7 @@ const Services = () => {
                 alt={service.title} 
                 className="rounded-lg mb-4 h-40 w-full object-cover"
               />
-              <h3 className="text-xl font-semibold text-[#228B22] mb-2">{service.title}</h3>
+              <h3 className="text-xl font-semibold text-[#160125] mb-2">{service.title}</h3>
               <p className="text-gray-700">{service.description}</p>
             </div>
           ))}
