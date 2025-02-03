@@ -27,7 +27,7 @@ const Header = () => {
         {/* Toggle Button for Mobile Devices */}
         <button 
           onClick={toggleMenu}
-          className="md:hidden text-white focus:outline-none"
+          className="md:hidden text-purple-950 focus:outline-none"
         >
           <div className={`h-1 w-8 bg-white transition-transform duration-300 ${isMenuOpen ? 'rotate-45' : ''} mb-1`}></div>
           <div className={`h-1 w-8 bg-white transition-opacity duration-300 ${isMenuOpen ? 'opacity-0' : 'opacity-100'}`}></div>
@@ -35,7 +35,7 @@ const Header = () => {
         </button>
 
         {/* Navigation Links */}
-        <nav className={`md:flex ${isMenuOpen ? 'block' : 'hidden'} absolute md:static top-full left-0 w-full bg-purple-500 md:bg-transparent shadow-lg md:shadow-none`}>
+        <nav className={`md:flex ${isMenuOpen ? 'block' : 'hidden'} absolute md:static top-full left-0 w-full bg-purple-950 md:bg-transparent shadow-lg md:shadow-none`}>
           <ul className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-8 text-lg md:text-xl md:ml-auto">
             <li>
               <Link 
