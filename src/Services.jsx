@@ -8,9 +8,27 @@ import industrialWiring from './images/industrial_wiring.jpg';
 import smartHome from "./images/smart_home.jpg";
 import energyAudit from './images/energy_audit.jpg';
 import transformer from './images/transformer.jpg';
+import cctvInstallation from "./images/cctv_installation.jpg";
+import accessControl from "./images/access_control.jpg";
+import electricFence from "./images/electric_fence.jpg";
 
-// Sample Electrical Power Services Data
+// Updated Electrical Power Services Data
 const services = [
+  {
+    title: 'CCTV Installation, Maintenance & Services',
+    description: 'Installation and maintenance of surveillance systems for enhanced security.',
+    imageUrl: cctvInstallation
+  },
+  {
+    title: 'Access Control Installation, Maintenance & Services',
+    description: 'Secure access control systems for businesses and residential areas.',
+    imageUrl: accessControl
+  },
+  {
+    title: 'Electric Fence Installation, Maintenance & Services',
+    description: 'High-security electric fencing solutions for perimeter protection.',
+    imageUrl: electricFence
+  },
   {
     title: 'Power Installation',
     description: 'Professional installation of electrical systems for homes and businesses.',

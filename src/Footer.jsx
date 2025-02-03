@@ -51,7 +51,11 @@ const Footer = () => {
           </div>
           <div className="flex items-center space-x-2 mt-4">
             <FaMapMarkerAlt size={20} />
-            <span className="text-base">Nairobi, KE</span>
+            <span className="text-base">Raoso House, Haile Selassie, Nairobi</span>
+          </div>
+          <div className="flex items-center space-x-2 mt-4">
+            <FaMapMarkerAlt size={20} />
+            <span className="text-base">P.O. Box 8044-00100, Nairobi</span>
           </div>
         </div>
 
