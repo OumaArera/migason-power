@@ -11,6 +11,8 @@ import transformer from './images/transformer.jpg';
 import cctvInstallation from "./images/cctv_installation.jpg";
 import accessControl from "./images/access_control.jpg";
 import electricFence from "./images/electric_fence.jpg";
+import domesticInstallation from "./images/domestic_installation.jpg";  
+import commercialInstallation from "./images/commercial_installation.jpg";  
 
 // Updated Electrical Power Services Data
 const services = [
@@ -73,6 +75,16 @@ const services = [
     title: 'Transformer Installation & Maintenance',
     description: 'Ensuring reliable power transmission and distribution.',
     imageUrl: transformer,
+  },
+  {
+    title: 'Domestic Electrical Installations',
+    description: 'Expert electrical installations for residential homes.',
+    imageUrl: domesticInstallation,
+  },
+  {
+    title: 'Commercial Electrical Installations',
+    description: 'Professional electrical services for commercial buildings and offices.',
+    imageUrl: commercialInstallation,
   },
 ];
 
